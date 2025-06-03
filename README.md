@@ -8,7 +8,7 @@ pip install pyyaml flask
 python app.py
 
 ### Basic UI
-![image](https://github.com/sreekanth-kocharlakota_snlabs/resource-planning/assets/113263103/b38c849c-c8b2-435c-85a8-a9f6d2d8b32d)
+![image](https://github.com/user-attachments/assets/60d93983-505e-427e-8d50-4c9429278c27)
 
 
 # Resource Planning Project in Docker Setup Guide
