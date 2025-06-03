@@ -60,8 +60,8 @@ os.rename("Data_Model.xlsx",f'Data_Model {time}.xlsx')
 df_result.to_excel(f"Data_Model_DIM_Employee.xlsx",sheet_name="DIM_Employee")
 
 # Додаємо ці нові рядки до df1
-#df_result = pd.concat([root_df, df_new_rows])
-#df_result.to_excel(f'IsIn result {excel_files}.xlsx')
+df_result = pd.concat([root_df, df_new_rows])
+df_result.to_excel(f'IsIn result {excel_files}.xlsx')
 
 # df to be mergered to dictionary
 # df_q = {"count_row":df["Source"]["1-Jan-25"].count(),
